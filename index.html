@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Rani ❤️</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="hearts">💕 💗 💖 💕 💗</div>
+
+    <header class="hero">
+        <h1>Happy 23rd Birthday ❤️</h1>
+        <h2>My Dearest Rani</h2>
+        <p>26 November 2026</p>
+        <h3>Every moment with you is special, Babe 💕</h3>
+    </header>
+
+    <section class="countdown-section">
+        <h2>Countdown to Your Special Day 🎂</h2>
+        <div id="countdown"></div>
+    </section>
+
+    <section class="gallery-section">
+        <h2>Our Beautiful Memories 📸</h2>
+        <p>Tap each photo for a little surprise ❤️</p>
+
+        <div class="gallery">
+
+            <details class="photo-card">
+                <summary>
+                    <img src="{{ url_for('static', filename='rani.jpg') }}" alt="Memory 1">
+                    <span class="tap-text">Tap for a surprise ❤️</span>
+                </summary>
+                <p class="surprise-quote">Your smile makes my world brighter. 💗</p>
+            </details>
+
+            <details class="photo-card">
+                <summary>
+                    <img src="{{ url_for('static', filename='photo2.jpg') }}" alt="Memory 2">
+                    <span class="tap-text">Tap for a surprise ❤️</span>
+                </summary>
+                <p class="surprise-quote">Every little moment with you is precious. 💕</p>
+            </details>
+
+            <details class="photo-card">
+                <summary>
+                    <img src="{{ url_for('static', filename='photo3.jpg') }}" alt="Memory 3">
+                    <span class="tap-text">Tap for a surprise ❤️</span>
+                </summary>
+                <p class="surprise-quote">You are my favourite notification. 💌</p>
+            </details>
+
+            <details class="photo-card">
+                <summary>
+                    <img src="{{ url_for('static', filename='photo4.jpg') }}" alt="Memory 4">
+                    <span class="tap-text">Tap for a surprise ❤️</span>
+                </summary>
+                <p class="surprise-quote">I would choose you in every lifetime. ❤️</p>
+            </details>
+
+            <details class="photo-card">
+                <summary>
+                    <img src="{{ url_for('static', filename='photo5.jpg') }}" alt="Memory 5">
+                    <span class="tap-text">Tap for a surprise ❤️</span>
+                </summary>
+                <p class="surprise-quote">You make ordinary days feel magical. ✨</p>
+            </details>
+
+            <details class="photo-card">
+                <summary>
+                    <img src="{{ url_for('static', filename='photo6.jpg') }}" alt="Memory 6">
+                    <span class="tap-text">Tap for a surprise ❤️</span>
+                </summary>
+                <p class="surprise-quote">My favourite place is wherever you are. 🥰</p>
+            </details>
+
+            <details class="photo-card">
+                <summary>
+                    <img src="{{ url_for('static', filename='photo7.jpg') }}" alt="Memory 7">
+                    <span class="tap-text">Tap for a surprise ❤️</span>
+                </summary>
+                <p class="surprise-quote">Thank you for making my life beautiful. 💖</p>
+            </details>
+
+            <details class="photo-card">
+                <summary>
+                    <img src="{{ url_for('static', filename='photo8.jpg') }}" alt="Memory 8">
+                    <span class="tap-text">Tap for a surprise ❤️</span>
+                </summary>
+                <p class="surprise-quote">You will always be someone special to me. 💞</p>
+            </details>
+
+        </div>
+    </section>
+
+    <section class="final-message">
+        <h2>To My Beautiful Babe 💗</h2>
+        <p>May your birthday be filled with happiness, love and endless smiles.</p>
+        <p>You deserve all the beautiful things in this world. ❤️</p>
+    </section>
+
+    <!-- LOVE LETTER SECTION -->
+    <section class="love-letter">
+
+        <h2>A Little Letter For You 💌</h2>
+
+        <p class="letter-intro">
+            Babe, there's something I want you to know...
+        </p>
+
+        <button onclick="openLetter()" class="letter-button">
+            Open My Heart ❤️
+        </button>
+
+        <div id="loveLetter" class="letter-content">
+
+            <h2>My Dearest Rani ❤️</h2>
+
+            <p>Happy 23rd Birthday, my love!</p>
+
+            <p>
+                I don't know how to put all my feelings into words,
+                but I want you to know how special you are to me.
+                You bring happiness into my life in ways you may
+                never fully understand.
+            </p>
+
+            <p>
+                Your smile, your presence and all the little things
+                about you make my world more beautiful.
+            </p>
+
+            <p>
+                I wish you endless happiness, success and all the
+                beautiful things you deserve.
+            </p>
+
+            <p>
+                Thank you for being you, Babe.
+                Never forget how precious you are to me.
+            </p>
+
+            <h3>Forever yours, ❤️</h3>
+
+        </div>
+    </section>
+
+    <footer>
+        Made with ❤️ just for you, Babe.
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
